@@ -1,3 +1,27 @@
+let firstName ="Marwane";
+let lastName = "Laamiri";
+const Pi = 3.14;
+let radius = 5;
+let favoriteSuperHero = "Spider-Man";
+let favoriteQuote = "With great power comes great responsibility.";
+
+
+let fullName = firstName + " " + lastName;
+let areaOfCircle = Pi * radius * radius;
+let perimeterOfCircle = 2 * Pi * radius;
+
+let motivation = "a wise man named " + favoriteSuperHero + ": " + favoriteQuote;
+
+
+// swapping values of variables
+let a = 3;
+let b = 10;
+
+[a,b]=[b,a];
+
+console.log("the value of a is : " + a +  " and the value of b is : " + b);
+
+
 // conditional statement
 
 function checkIfEven(number){
@@ -65,43 +89,3 @@ function getScore(score){
     }
 }
 getScore(83);
-console.log(typeof ("5"-2));
-// var x = 10;
-// if (true) {
-//   var x = 20;
-// }
-// console.log(x);
-// const x = 10;
-// if (true) {
-//   const x = 20;
-//   console.log(x);
-// }
-// console.log(x);
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function testFunc(...args){
-//     for(let i = 0; i < args.length; i++){
-//         console.log(args[i]);
-//     }
-// }
-
-let i=0;
-
-while(i<10){
-    if(i==7){
-        return;
-    }
-    console.log(`the i is ${i}`);
-    i++;
-}
