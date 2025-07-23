@@ -1,4 +1,4 @@
-
+// hackerRank  Task challenge
 function vowelsAndConsonants(s){
     let vowels = ["a","o","i","u","e"];
     let vow = [];
@@ -21,6 +21,9 @@ function vowelsAndConsonants(s){
 }
 
 vowelsAndConsonants("marewane");
+console.log("**************************************");
+
+// The code of task day 2 , is in day1
 
 
 

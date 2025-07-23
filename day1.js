@@ -10,14 +10,16 @@ let fullName = firstName + " " + lastName;
 let areaOfCircle = Pi * radius * radius;
 let perimeterOfCircle = 2 * Pi * radius;
 
+// concatenation
 let motivation = "a wise man named " + favoriteSuperHero + ": " + favoriteQuote;
 
 
-// swapping values of variables
+// swapping values of variables Task 3
 let a = 3;
 let b = 10;
 
 [a,b]=[b,a];
+
 
 console.log("the value of a is : " + a +  " and the value of b is : " + b);
 
@@ -33,7 +35,7 @@ function checkIfEven(number){
 }
 
 
-function weekDayName(numDay){
+function numberToDay(numDay){
     switch(numDay){
     case 1:
         console.log("Monday");
@@ -63,17 +65,17 @@ function weekDayName(numDay){
 }
 
 // -2,3,5
-function maxNumber(num1,num2,num3){
+function max(num1,num2,num3){
     if(num1>=num2 && num1>=num3){
         return num1;
-    }else if(num2>=num1 && num2>=num3){
+    }else if(num2 >= num1 && num2 >= num3){
         return num2;
     }else{
         return num3;
     }
 }
 
-function getScore(score){
+function myGrade(score){
     if(score>85){
         console.log("grade is A");
     }else if(score>70 && score <=85){
@@ -88,4 +90,5 @@ function getScore(score){
         console.log("grade is D");
     }
 }
-getScore(83);
+// getScore(83);
+
